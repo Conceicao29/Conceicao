@@ -1,0 +1,5 @@
+SELECT filme.nome_original, filme .nome_pt
+FROM filme
+Join exibicao ON filme.id_filme=exibicao.id_film
+JOIN sala ON exibicao.id_sala=sala.id_sala
+WHERE sala.id_sala AND exibicao.data LIKE '2019%';

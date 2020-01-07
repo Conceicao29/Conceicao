@@ -1,0 +1,4 @@
+SELECT exibicao.data
+FROM exibicao
+JOIN filme ON exibicao.id_filme=filme.id_filme
+WHERE filme.nome_original LIKE 'O Gebo e a Sombra;

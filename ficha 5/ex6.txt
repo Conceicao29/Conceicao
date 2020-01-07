@@ -1,0 +1,4 @@
+SELECT filme.nome_portugues 
+FROM `filme` 
+JOIN realizador ON filme.id_realizador=realizador.id_realizador
+WHERE realizador.nome LIKE 'Manoel de Oliveira';

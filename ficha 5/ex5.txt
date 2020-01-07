@@ -1,0 +1,1 @@
+SELECT nome_pt, nome_original FROM `filme` WHERE id_realizador=1;
